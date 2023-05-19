@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
@@ -50,7 +49,6 @@
       <change afterPath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/abstract/_placeholders.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/abstract/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_index.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_index.scss" afterDir="false" />
@@ -59,7 +57,6 @@
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/header/_index.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/map/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/page/_index.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/page/_page.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/place-card/_index.scss" afterDir="false" />
@@ -70,8 +67,11 @@
       <change afterPath="$PROJECT_DIR$/src/scss/sections/_places.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +154,7 @@
       <workItem from="1684451843332" duration="950000" />
       <workItem from="1684452811547" duration="4831000" />
       <workItem from="1684458785984" duration="191000" />
-      <workItem from="1684488070902" duration="2637000" />
+      <workItem from="1684488070902" duration="2933000" />
     </task>
     <servers />
   </component>
