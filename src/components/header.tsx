@@ -30,7 +30,7 @@ const Header = () => {
                     </ul>
                 </nav>
                 <div className="header__contacts header-contacts">
-                    <a className="header-contacts__phone" href="tel:84912777717">8 (4912) 77-77-17</a>
+                    <a className="header-contacts__phone" href="tel:79155969524">7 (915) 596-95-24</a>
                     <a className="header-contacts__order">заказать обратный звонок</a>
                 </div>
             </div>

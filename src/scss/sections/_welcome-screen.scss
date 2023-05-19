@@ -71,6 +71,20 @@
   color: var.$brand-white;
 
   &::before {
-    content: "\f107";
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: -18px;
+    margin-left: -20px;
+
+    background-image: url('../../../public/images/ico-top-arrow.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

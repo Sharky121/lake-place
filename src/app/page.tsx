@@ -39,31 +39,25 @@ export default function Home() {
                   </li>
                   <li className="places__item place-card">
                       <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №1</h3>
+                          <h3 className="place-card__title">Участок №2</h3>
                           <a className="place-card__more" href="">Подробней об участке</a>
                       </div>
                   </li>
                   <li className="places__item place-card">
                       <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №1</h3>
+                          <h3 className="place-card__title">Участок №3</h3>
                           <a className="place-card__more" href="">Подробней об участке</a>
                       </div>
                   </li>
                   <li className="places__item place-card">
                       <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №1</h3>
+                          <h3 className="place-card__title">Участок №4</h3>
                           <a className="place-card__more" href="">Подробней об участке</a>
                       </div>
                   </li>
                   <li className="places__item place-card">
                       <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №1</h3>
-                          <a className="place-card__more" href="">Подробней об участке</a>
-                      </div>
-                  </li>
-                  <li className="places__item place-card">
-                      <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №1</h3>
+                          <h3 className="place-card__title">Участок №5</h3>
                           <a className="place-card__more" href="">Подробней об участке</a>
                       </div>
                   </li>
