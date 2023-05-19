@@ -5,10 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Arial-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Arial-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Arial-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Arial-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Montserrat-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/OpenSansCondensed-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/OpenSansCondensed-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/map.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/right-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg-map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/video-background.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/yandex-map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstract/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstract/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstract/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/abstract/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-menu/_header-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-menu/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/map/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/page/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/page/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/place-card/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/place-card/_place-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/sections/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/sections/_page-section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/sections/_places.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +113,17 @@
       <recent name="$PROJECT_DIR$/src/scss/" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -63,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -80,7 +154,7 @@
       <workItem from="1684451843332" duration="950000" />
       <workItem from="1684452811547" duration="4831000" />
       <workItem from="1684458785984" duration="191000" />
-      <workItem from="1684488070902" duration="1727000" />
+      <workItem from="1684488070902" duration="2637000" />
     </task>
     <servers />
   </component>
