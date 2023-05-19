@@ -1,0 +1,76 @@
+@use "../abstract" as var;
+
+.welcome-screen {
+  position: relative;
+
+  height: 100vh;
+  width: 100%;
+
+  color: #ffffff;
+  text-align: center;
+
+  background-image: url('../../../public/images/video-background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+
+  &:after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .3);
+  }
+}
+
+.welcome-screen__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+}
+
+.welcome-screen__video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-screen__inner {
+  position: relative;
+
+  color: var.$brand-white;
+
+  z-index: 2;
+}
+
+.welcome-screen__btn {
+  position: relative;
+
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  border-radius: 50%;
+  border: 2px solid var.$brand-white;
+  color: var.$brand-white;
+
+  &::before {
+    content: "\f107";
+  }
+}

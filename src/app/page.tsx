@@ -1,95 +1,101 @@
+'use client';
+
 import Image from 'next/image'
-import styles from './page.module.css'
+import VideoBackground from "@/components/video-background";
+import YandexMap from "@/components/yandex-map";
+import SvgMap from "@/components/svg-map";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main className="page__main">
+        <section className="page__section page-section page__welcome-screen welcome-screen" id="welcome">
+        <h2 className="visually-hidden">Главный экран</h2>
+          <div className="welcome-screen__video">
+              <VideoBackground />
+          </div>
+          <div className="welcome-screen__container container">
+              <div className="welcome-screen__inner">
+                  <h1 className="page__title">Lorem Ipsum</h1>
+                  <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+                  <a className="welcome-screen__btn" href="#places">
+                      <span className="visually-hidden">Вниз</span>
+                  </a>
+              </div>
+          </div>
+        </section>
+        <section className="page__section page-section page__places places" id="places">
+          <div className="page-section__container container">
+              <div className="page-section__head">
+                  <h2 className="page-section__title">Участки</h2>
+                  <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+              </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+              <ul className="places__list">
+                  <li className="places__item place-card">
+                      <div className="place-card__wrapper">
+                          <h3 className="place-card__title">Участок №1</h3>
+                          <a className="place-card__more" href="">Подробней об участке</a>
+                      </div>
+                  </li>
+                  <li className="places__item place-card">
+                      <div className="place-card__wrapper">
+                          <h3 className="place-card__title">Участок №1</h3>
+                          <a className="place-card__more" href="">Подробней об участке</a>
+                      </div>
+                  </li>
+                  <li className="places__item place-card">
+                      <div className="place-card__wrapper">
+                          <h3 className="place-card__title">Участок №1</h3>
+                          <a className="place-card__more" href="">Подробней об участке</a>
+                      </div>
+                  </li>
+                  <li className="places__item place-card">
+                      <div className="place-card__wrapper">
+                          <h3 className="place-card__title">Участок №1</h3>
+                          <a className="place-card__more" href="">Подробней об участке</a>
+                      </div>
+                  </li>
+                  <li className="places__item place-card">
+                      <div className="place-card__wrapper">
+                          <h3 className="place-card__title">Участок №1</h3>
+                          <a className="place-card__more" href="">Подробней об участке</a>
+                      </div>
+                  </li>
+                  <li className="places__item place-card">
+                      <div className="place-card__wrapper">
+                          <h3 className="place-card__title">Участок №1</h3>
+                          <a className="place-card__more" href="">Подробней об участке</a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </section>
+        <section className="page__section page-section page__map map" id="map">
+            <div className="page-section__container container">
+                <div className="page-section__head">
+                    <h2 className="page-section__title">Интерактивная Карта</h2>
+                    <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                </div>
+                <div className="map__scheme">
+                    <SvgMap/>
+                </div>
+            </div>
+        </section>
+        <section className="page__section page-section page__contacts contacts" id="contacts">
+            <div className="contacts__container container">
+                <div className="page-section__head">
+                    <h2 className="page-section__title">Контакты</h2>
+                    <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+                </div>
+                <ul className="contacts__list">
+                    <li className="contacts__item">Телефон: <b>+7 (915) 596-95-24</b></li>
+                    <li className="contacts__item">Email: <b>ulibabaeva@mail.ru</b></li>
+                </ul>
+            </div>
+            <div className="contacts__map">
+                <YandexMap/>
+            </div>
+        </section>
     </main>
   )
 }

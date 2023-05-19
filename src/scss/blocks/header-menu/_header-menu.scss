@@ -1,0 +1,20 @@
+@use "../../abstract" as var;
+
+.header-menu__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-menu__link {
+  padding: 8px 20px;
+
+  font-size: 14px;
+  color: var.$brand-white;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+  }
+}
