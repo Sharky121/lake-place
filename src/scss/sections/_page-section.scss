@@ -1,0 +1,30 @@
+@use "../abstract" as var;
+
+.page-section__container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  text-align: center;
+}
+
+.page-section__head {
+  margin-bottom: 60px;
+}
+
+.page-section__title {
+  margin: 0;
+
+  font-size: 50px;
+  font-family: "OpenSansCondensed-Light", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: inherit;
+}
+
+.page-section__subtitle {
+  margin-top: 10px;
+
+  font-size: 14px;
+  color: inherit;
+}

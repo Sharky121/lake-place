@@ -1,0 +1,27 @@
+@use "../../abstract" as var;
+
+.contacts {
+  color: var.$brand-white;
+
+  background-color: var.$brand-blue;
+}
+
+.contacts__container {
+  padding-top: 100px;
+
+  text-align: center;
+}
+
+.contacts__item {
+  margin-bottom: 10px;
+
+  font-size: 18px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contacts__map {
+  margin-top: 20px;
+}

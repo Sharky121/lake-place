@@ -1,0 +1,55 @@
+@use "../../abstract" as var;
+
+.place-card {
+  border-radius: 5px;
+
+  background-color: var.$brand-white;
+  border-bottom: 4px solid var.$brand-green;
+  transition: all 0.2s ease-in-out 0s;
+
+  overflow: hidden;
+}
+
+.place-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  min-height: 400px;
+}
+
+.place-card__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.place-card:hover {
+  transition: all 0.2s ease-in-out 0s;
+  box-shadow: 0 10px 50px rgb(22 22 26 / 15%);
+}
+
+.place-card__more {
+  position: relative;
+
+  display: block;
+  margin-top: auto;
+  padding-left: 25px;
+
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var.$brand-green;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 20px;
+    width: 20px;
+    margin-top: -11px;
+    background-image: url('../../../../public/images/right-arrow.svg');
+    background-size: cover;
+  }
+}

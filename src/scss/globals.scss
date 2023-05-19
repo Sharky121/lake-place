@@ -1,0 +1,17 @@
+// BASE
+@use 'fonts';
+@use 'base';
+@use "helpers";
+@use "container";
+
+// SECTIONS
+@use 'sections';
+
+// BLOCKS
+@use "blocks/page";
+@use "blocks/header-contacts";
+@use "blocks/header-menu";
+@use "blocks/header";
+@use "blocks/place-card";
+@use "blocks/map";
+@use "blocks/contacts";

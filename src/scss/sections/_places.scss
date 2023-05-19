@@ -1,0 +1,17 @@
+@use "../abstract" as var;
+
+.places {
+  background-color: var.$brand-primary;
+}
+
+.places__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.places__item {
+  width: calc((100% - 20px * 2) / 3);
+}

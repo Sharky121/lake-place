@@ -1,0 +1,22 @@
+@use "../../abstract" as var;
+
+.header-contacts {
+  color: var.$brand-white;
+  line-height: 1;
+}
+
+.header-contacts__phone {
+  display: block;
+
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  color: inherit;
+}
+
+.header-contacts__order {
+  font-size: 12px;
+  line-height: 1;
+  color: inherit;
+  text-decoration: underline;
+}
