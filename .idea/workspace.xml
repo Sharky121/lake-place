@@ -35,20 +35,17 @@
       <change afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/svg-map.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/video-background.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/yandex-map.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/_base.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/_container.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/_helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/abstract/_colors.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/abstract/_index.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/abstract/_mixins.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/abstract/_placeholders.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/abstract/_variables.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_index.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-menu/_header-menu.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/scss/blocks/header-menu/_index.scss" afterDir="false" />
@@ -68,7 +65,9 @@
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg-map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg-map.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/sections/_page-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_page-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" afterDir="false" />
@@ -98,7 +97,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/sharky/sites/lake-place",
+    "last_opened_file_path": "/home/sharky/sites/festival",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -154,7 +153,7 @@
       <workItem from="1684451843332" duration="950000" />
       <workItem from="1684452811547" duration="4831000" />
       <workItem from="1684458785984" duration="191000" />
-      <workItem from="1684488070902" duration="3720000" />
+      <workItem from="1684488070902" duration="8310000" />
     </task>
     <servers />
   </component>
