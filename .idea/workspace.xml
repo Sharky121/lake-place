@@ -35,7 +35,6 @@
       <change afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/app/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/svg-map.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/video-background.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/yandex-map.tsx" afterDir="false" />
@@ -67,6 +66,7 @@
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/map/_map.scss" afterDir="false" />
@@ -154,7 +154,7 @@
       <workItem from="1684451843332" duration="950000" />
       <workItem from="1684452811547" duration="4831000" />
       <workItem from="1684458785984" duration="191000" />
-      <workItem from="1684488070902" duration="3547000" />
+      <workItem from="1684488070902" duration="3720000" />
     </task>
     <servers />
   </component>
