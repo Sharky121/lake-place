@@ -1,15 +1,16 @@
 'use client';
 
-import Image from 'next/image'
+import {places} from '@/data/places'
 import VideoBackground from "@/components/video-background";
 import YandexMap from "@/components/yandex-map";
 import SvgMap from "@/components/svg-map";
+import {Place} from "@/types/types";
 
 export default function Home() {
   return (
     <main className="page__main">
         <section className="page__section page-section page__welcome-screen welcome-screen" id="welcome">
-        <h2 className="visually-hidden">Главный экран</h2>
+          <h2 className="visually-hidden">Главный экран</h2>
           <div className="welcome-screen__video">
               <VideoBackground />
           </div>
@@ -31,36 +32,15 @@ export default function Home() {
               </div>
 
               <ul className="places__list">
-                  <li className="places__item place-card">
-                      <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №1</h3>
-                          <a className="place-card__more" href="">Подробней об участке</a>
-                      </div>
-                  </li>
-                  <li className="places__item place-card">
-                      <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №2</h3>
-                          <a className="place-card__more" href="">Подробней об участке</a>
-                      </div>
-                  </li>
-                  <li className="places__item place-card">
-                      <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №3</h3>
-                          <a className="place-card__more" href="">Подробней об участке</a>
-                      </div>
-                  </li>
-                  <li className="places__item place-card">
-                      <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №4</h3>
-                          <a className="place-card__more" href="">Подробней об участке</a>
-                      </div>
-                  </li>
-                  <li className="places__item place-card">
-                      <div className="place-card__wrapper">
-                          <h3 className="place-card__title">Участок №5</h3>
-                          <a className="place-card__more" href="">Подробней об участке</a>
-                      </div>
-                  </li>
+                  {
+                      places.map((place: Place, index) => (
+                          <li key={index} className="places__item place-card" style={{backgroundImage: `url(${place.backgroundImage})`}}>
+                              <a className="place-card__wrapper" href="">
+                                  <h3 className="place-card__title">{place.title}</h3>
+                              </a>
+                          </li>
+                      ))
+                  }
               </ul>
           </div>
       </section>
