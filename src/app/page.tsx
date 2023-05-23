@@ -30,7 +30,7 @@ export default function Home() {
                     </div>
                     <div className="welcome-screen__container container">
                         <div className="welcome-screen__inner">
-                            <h1 className="page__title">Lorem Ipsum</h1>
+                            <h1 className="page__title">Земля у Озера</h1>
                             <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                             <a className="welcome-screen__btn" href="#features">
                                 <span className="visually-hidden">Вниз</span>
