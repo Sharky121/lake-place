@@ -20,7 +20,7 @@ const MainPopup = ({isOpened, children, onClose, modificationClass}: MainPopupPr
                              height="24"
                              aria-hidden="true"
                              focusable="false">
-                            <use xlinkHref="#ico-cross" x="0" y="0"></use>
+                            <path fill="#ffffff" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
                         </svg>
                         <span className="visually-hidden">Закрыть модальное окно</span>
                     </button>

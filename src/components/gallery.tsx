@@ -24,19 +24,14 @@ const Gallery = ({photos}: GalleryProps) => {
                                 if (index === THUMBS_COUNT - 1) {
                                     return (
                                         <li key={index} className="gallery-thumbs__item">
-                                            <button className="gallery-thumbs__button gallery-thumbs__button--dark"
-                                                    type="button"
-                                                    onClick={() => alert('fff')}
-                                            >
-                                                <img className="gallery-thumbs__img" src={`/${photo}`} alt=""/>
-                                            </button>
+                                            <img className="gallery-thumbs__img" src={`/${photo}`} alt=""/>
                                         </li>
                                     )
                                 }
 
                                 return (
                                     <li key={index} className="gallery-thumbs__item">
-                                        <button className={`gallery-thumbs__button ${photo.id === currentSlide.id ? 'lot-gallery-thumbs__button--active' : ''}`}
+                                        <button className={`gallery-thumbs__button ${photo.id === currentSlide.id ? 'gallery-thumbs__button--active' : ''}`}
                                                 type="button"
                                                 onClick={() => setCurrentSlide(photo)}>
                                             <img className="gallery-thumbs__img" src={`/${photo.url}`} alt=""/>
