@@ -49,6 +49,10 @@ export const places: Places = [
                 id: 4,
                 url: 'images/places/birch-grove/4.jpg',
             },
+            {
+                id: 5,
+                url: 'images/places/birch-grove/5.jpg',
+            },
         ]
     },
     {
