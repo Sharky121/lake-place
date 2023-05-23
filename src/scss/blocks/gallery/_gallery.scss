@@ -1,0 +1,42 @@
+@use '../../abstract' as var;
+
+.gallery__container {
+  height: 400px;
+  margin-bottom: 15px;
+
+  overflow: hidden;
+}
+
+.gallery__img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-thumbs__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.gallery-thumbs__item {
+  width: calc((100% - 10px * 4) / 5);
+}
+
+.gallery-thumbs__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-thumbs__button {
+  @extend %btn-reset;
+
+  height: 100px;
+
+  overflow: hidden;
+}
+
+.gallery-thumbs__img {
+  max-width: 100%;
+  height: auto;
+}

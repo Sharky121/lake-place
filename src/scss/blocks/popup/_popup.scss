@@ -1,0 +1,97 @@
+@use '../../abstract' as var;
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 36px;
+
+  z-index: 999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.popup {
+  width: 1200px;
+  height: auto;
+
+  background-color: var.$brand-white;
+  border-radius: 16px;
+
+  z-index: 2;
+}
+
+.popup__content {
+  position: relative;
+}
+
+.popup__close {
+  @extend %btn-reset;
+
+  position: absolute;
+  top: -36px;
+  right: -36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+
+  color: var.$brand-white;
+
+  border-radius: 8px;
+  background-color: rgba(var.$brand-white, 0.5);
+
+  svg {
+    transition: transform 0.45s ease-out;
+  }
+
+  &:hover {
+    color: var.$brand-green;
+
+    background-color: rgba(var.$brand-green, 0.5);
+
+    svg {
+      transform: rotate(90deg);
+      transition: transform 0.45s ease-out;
+    }
+  }
+}
+
+.popup__header {
+  padding: 20px;
+}
+
+.popup__title {
+  font-size: 24px;
+}
+
+.popup__subtitle {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.popup__body {
+  padding: 20px;
+}
+
+.popup__footer {
+  padding: 20px;
+}

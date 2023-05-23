@@ -36,7 +36,7 @@ const SvgMap = () => {
                 className="logo__img"
                 alt="Карта Дом у Озера"
             />
-            <svg viewBox="0 0 1280 720" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: '9999' }}>
+            <svg viewBox="0 0 1280 720" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: '100' }}>
                 {
                     paths.map((path, index) => (
                         <path key={index}
