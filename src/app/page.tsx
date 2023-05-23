@@ -4,20 +4,21 @@ import {places} from '@/data/places'
 import VideoBackground from "@/components/video-background";
 import YandexMap from "@/components/yandex-map";
 import SvgMap from "@/components/svg-map";
-import {Place} from "@/types/types";
+import {Photos, Place} from "@/types/types";
 import {useState} from "react";
 import MainPopup from "@/components/main-popup";
 import Gallery from "@/components/gallery";
-import {makarovoPhotos} from "@/data/photos";
 
 export default function Home() {
     const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
     const [isLoading, setIsLoading] = useState(false);
+    const [modalPhotos, setModalPhotos] = useState<Photos>([]);
+    const [modalTitle, setModalTitle] = useState('');
 
-    const handlePlacePopup = (title: string) => {
-        setModalIsOpen((prev) => {
-            return !prev;
-        });
+    const handlePlacePopup = (title: string, photos: Photos) => {
+        setModalIsOpen((prev) => !prev);
+        setModalTitle(title);
+        setModalPhotos(photos);
     }
 
     return (
@@ -91,7 +92,7 @@ export default function Home() {
                             {
                                 places.map((place: Place, index) => (
                                     <li key={index} className="places__item place-card"
-                                        onClick={() => handlePlacePopup(place.title)}
+                                        onClick={() => handlePlacePopup(place.title, place.photos)}
                                         style={{backgroundImage: `url(${place.backgroundImage})`}}>
                                         <div className="place-card__wrapper" >
                                             <h3 className="place-card__title">{place.title}</h3>
@@ -134,13 +135,14 @@ export default function Home() {
                 <MainPopup isOpened={modalIsOpen}
                            onClose={() => setModalIsOpen(false)}>
                     <div className="popup__header">
+                        <h3 className="popup__title">{modalTitle}</h3>
                     </div>
                     <div className="popup__body">
                         {isLoading
                             ? (<div>Loading</div>)
                             : (
                                 <div className="place">
-                                    <Gallery photos ={makarovoPhotos}/>
+                                    <Gallery photos ={modalPhotos}/>
                                     <div className="place__info place-info">
                                         <ul className="place-info__list">
                                             <li className="place-info__item">

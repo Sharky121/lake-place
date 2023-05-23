@@ -7,6 +7,12 @@
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/photos.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,16 +112,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/photos.tsx</url>
-          <line>15</line>
+          <url>file://$PROJECT_DIR$/src/app/page.tsx</url>
+          <line>146</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/photos.tsx</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

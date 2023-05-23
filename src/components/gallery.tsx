@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Photo, Photos} from "@/types/types";
 
 type GalleryProps = {
-    photos: Photos;
+    photos: Photos
 };
 
 const Gallery = ({photos}: GalleryProps) => {
