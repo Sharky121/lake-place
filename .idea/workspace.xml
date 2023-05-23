@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/birch-grove/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/birch-grove/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/birch-grove/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/birch-grove/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/birch-grove/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/birch-grove/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/makarovo/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/makarovo/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/makarovo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/makarovo/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/makarovo/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/makarovo/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/makarovo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/makarovo/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/ushmore-park/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/ushmore-park/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/ushmore-park/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/ushmore-park/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-frolovo/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-frolovo/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-frolovo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-frolovo/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-frolovo/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-frolovo/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-frolovo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-frolovo/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-ushmor/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-ushmor/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-ushmor/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-ushmor/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-ushmor/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-ushmor/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/places/village-ushmor/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-ushmor/5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,12 +109,6 @@
           <line>7</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/data/places.ts</url>
-          <line>3</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -51,7 +51,7 @@ export const places: Places = [
             },
             {
                 id: 5,
-                url: 'images/places/birch-grove/5.jpg',
+                url: 'images/places/birch-grove/2.jpg',
             },
         ]
     },
