@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react';
+import React, {ReactNode, useEffect} from 'react';
 import Portal from './portal';
 
 type OverlayingPopupType = {
@@ -11,6 +11,18 @@ const OverlayingPopup = ({children, onClose, isOpened}: OverlayingPopupType) => 
     if (!isOpened) {
         return null;
     }
+
+    useEffect(() => {
+        if (isOpened) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
+    }, [isOpened]);
 
     return (
         <Portal>

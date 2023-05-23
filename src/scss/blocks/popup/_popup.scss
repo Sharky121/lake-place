@@ -7,6 +7,8 @@
   right: 0;
   bottom: 0;
 
+  width: 100%;
+  height: 100%;
   padding: 36px;
 
   z-index: 999;
@@ -28,7 +30,12 @@
 }
 
 .popup {
-  width: 1200px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 1200px;
   height: auto;
 
   background-color: var.$brand-white;
@@ -39,6 +46,9 @@
 
 .popup__content {
   position: relative;
+
+  height: 100%;
+  width: 100%;
 }
 
 .popup__close {

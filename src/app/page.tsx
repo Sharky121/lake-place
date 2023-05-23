@@ -110,7 +110,7 @@ export default function Home() {
                             <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                         </div>
                         <div className="map__scheme">
-                            <SvgMap/>
+                            <SvgMap handlePlacePopup={handlePlacePopup}/>
                         </div>
                     </div>
                 </section>

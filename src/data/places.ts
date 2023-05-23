@@ -74,11 +74,11 @@ export const places: Places = [
             },
             {
                 id: 4,
-                url: 'images/places/ushmore-park/4.jpg',
+                url: 'images/places/ushmore-park/2.jpg',
             },
             {
                 id: 5,
-                url: 'images/places/ushmore-park/5.jpg',
+                url: 'images/places/ushmore-park/3.jpg',
             },
         ]
     },
