@@ -1,10 +1,10 @@
 @use "../../abstract" as var;
 
 .place-card {
+  position: relative;
   border-radius: 5px;
 
   background-color: var.$brand-white;
-  border-bottom: 4px solid var.$brand-green;
 
   overflow: hidden;
 
@@ -15,20 +15,45 @@
 }
 
 .place-card__wrapper {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 40px;
   min-height: 400px;
+
+  z-index: 2;
 }
 
 .place-card__title {
+  position: relative;
+
   margin: 0;
+  padding-bottom: 10px;
 
   font-size: 30px;
   font-weight: 500;
   color: var.$brand-white;
+
+  overflow: hidden;
+
+  &:before {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 3px;
+
+    background: var.$brand-white;
+
+    transition: transform 0.35s;
+    transform: translate3d(-100%,0,0);
+  }
 }
 
 .place-card:hover {
@@ -58,5 +83,27 @@
     margin-top: -11px;
     background-image: url('../../../../public/images/right-arrow.svg');
     background-size: cover;
+  }
+}
+
+.place-card:hover {
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(var.$brand-green, 0.5);
+    z-index: 1;
+  }
+
+  .place-card__title::before {
+    transform: translate3d(0,0,0);
   }
 }
