@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/gallery.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main-popup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/overlaying-popup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/portal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/photos.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/gallery/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/place/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/place/_place-info.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/place/_place.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/popup/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/features/_features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/features/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/svg-map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg-map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/place-card/_place-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/place-card/_place-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

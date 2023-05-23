@@ -1,0 +1,24 @@
+@use '../../abstract' as var;
+
+.features__list {
+  @extend %list-reset;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.features__item {
+  width: calc((100% - 20px* 3) / 4);
+
+  svg {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin: 0;
+
+    font-size: 14px;
+  }
+}
