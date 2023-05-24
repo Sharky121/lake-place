@@ -8,6 +8,7 @@
 @use 'sections';
 
 // BLOCKS
+@use "blocks/logo";
 @use "blocks/page";
 @use "blocks/header-contacts";
 @use "blocks/header-menu";
@@ -15,3 +16,7 @@
 @use "blocks/place-card";
 @use "blocks/map";
 @use "blocks/contacts";
+@use "blocks/popup";
+@use "blocks/gallery";
+@use "blocks/place";
+@use "blocks/features";

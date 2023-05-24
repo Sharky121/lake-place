@@ -1,8 +1,8 @@
 @use "../abstract" as var;
 
 .page-section__container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   text-align: center;
 }
@@ -14,7 +14,7 @@
 .page-section__title {
   margin: 0;
 
-  font-size: 50px;
+  font-size: 32px;
   font-family: "OpenSansCondensed-Light", Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -28,3 +28,10 @@
   font-size: 14px;
   color: inherit;
 }
+
+@include var.tablet-size {
+
+  .page-section__title {
+    font-size: 50px;
+  }
+};

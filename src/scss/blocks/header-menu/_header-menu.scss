@@ -18,3 +18,25 @@
     border-radius: 4px;
   }
 }
+
+@include var.tablet-size {
+
+  .header-menu__list {
+    gap: 10px;
+  }
+
+  .header-menu__link {
+    padding: 8px 10px;
+  }
+}
+
+@include var.desktop-size {
+
+  .header-menu__list {
+    gap: 20px;
+  }
+
+  .header-menu__link {
+    padding: 8px 20px;
+  }
+}

@@ -7,7 +7,8 @@
 }
 
 .contacts__container {
-  padding-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   text-align: center;
 }
@@ -23,5 +24,12 @@
 }
 
 .contacts__map {
-  margin-top: 20px;
+  margin-top: 60px;
+}
+
+@include var.desktop-size {
+
+  .contacts__container {
+    padding-top: 100px;
+  }
 }
