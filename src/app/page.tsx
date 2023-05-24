@@ -90,9 +90,6 @@ export default function Home() {
                             <li className="contacts__item">Email: <b>ulibabaeva@mail.ru</b></li>
                         </ul>
                     </div>
-                    <div className="contacts__map">
-
-                    </div>
                 </section>
             </main>
 
