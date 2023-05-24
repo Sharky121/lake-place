@@ -21,8 +21,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 40px;
-  min-height: 400px;
+  padding: 20px;
+  min-height: 200px;
 
   z-index: 2;
 }
@@ -33,7 +33,7 @@
   margin: 0;
   padding-bottom: 10px;
 
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   color: var.$brand-white;
 
@@ -105,5 +105,21 @@
 
   .place-card__title::before {
     transform: translate3d(0,0,0);
+  }
+}
+
+@include var.tablet-size {
+
+}
+
+@include var.desktop-size {
+
+  .place-card__wrapper {
+    padding: 40px;
+    min-height: 400px;
+  }
+
+  .place-card__title {
+    font-size: 30px;
   }
 }

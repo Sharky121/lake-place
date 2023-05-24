@@ -5,6 +5,8 @@ export const places: Places = [
         id: 1,
         title: 'п/о Макарово',
         backgroundImage: '/images/places/makarovo/index.jpg',
+        videoUrl: '/video/makarovo.mp4',
+        path: '',
         photos: [
             {
                 id: 1,
@@ -32,6 +34,8 @@ export const places: Places = [
         id: 1,
         title: 'Березовая роща',
         backgroundImage: '/images/places/birch-grove/index.jpg',
+        videoUrl: '/video/makarovo.mp4',
+        path: '',
         photos: [
             {
                 id: 1,
@@ -59,6 +63,8 @@ export const places: Places = [
         id: 1,
         title: 'Ушмор Парк',
         backgroundImage: '/images/places/ushmore-park/index.jpg',
+        videoUrl: '/video/makarovo.mp4',
+        path: '',
         photos: [
             {
                 id: 1,
@@ -86,6 +92,8 @@ export const places: Places = [
         id: 1,
         title: 'д. Ушмор',
         backgroundImage: '/images/places/village-ushmor/index.jpg',
+        videoUrl: '/video/makarovo.mp4',
+        path: '',
         photos: [
             {
                 id: 1,
@@ -113,6 +121,8 @@ export const places: Places = [
         id: 1,
         title: 'д. Фролово',
         backgroundImage: '/images/places/village-frolovo/index.jpg',
+        videoUrl: '/video/makarovo.mp4',
+        path: '',
         photos: [
             {
                 id: 1,

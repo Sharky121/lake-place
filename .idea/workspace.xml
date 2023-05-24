@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/section-features.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section-places.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/logo/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/logo/_logo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/overlaying-popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/overlaying-popup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/svg-map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg-map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/video-background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video-background.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/features/_features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/features/_features.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header-menu/_header-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header-menu/_header-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/page/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/page/_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/place-card/_place-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/place-card/_place-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_page-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_page-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_places.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_places.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/sharky/sites/torgi_rf",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/sharky/sites/lake-place/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/sharky/sites/torgi_rf&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/sharky/sites/lake-place/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/scss/" />
@@ -95,11 +112,24 @@
       <workItem from="1684458785984" duration="191000" />
       <workItem from="1684488070902" duration="9063000" />
       <workItem from="1684791229042" duration="3407000" />
+      <workItem from="1684913643877" duration="4971000" />
+      <workItem from="1684931729483" duration="9789000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -111,8 +141,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data/places.ts</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
+          <line>9</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

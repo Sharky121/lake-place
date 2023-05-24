@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {places} from "@/data/places";
 
 const pathStyles = {
     stroke: 'green',
@@ -19,7 +20,7 @@ type SvgMapProps = {
     handlePlacePopup: () => void;
 }
 
-const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
+const SvgMap = () => {
 
     // @ts-ignore
     const handleMouseOver = (evt) => {
@@ -42,13 +43,12 @@ const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
             />
             <svg viewBox="0 0 1280 720" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: '100' }}>
                 {
-                    paths.map((path, index) => (
+                    places.map((place, index) => (
                         <path key={index}
-                              onClick={handlePlacePopup}
                               onMouseOver={handleMouseOver}
                               onMouseLeave={handleMouseLeave}
                               pointerEvents="bounding-box"
-                              d={path}
+                              d={place.path}
                               stroke={pathStyles.stroke} strokeWidth={pathStyles.strokeWidth} fill={pathStyles.fill} />
                     ))
                 }

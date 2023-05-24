@@ -6,7 +6,7 @@
 }
 
 .header-contacts__phone {
-  display: block;
+  display: none;
 
   font-size: 19px;
   line-height: 1;
@@ -15,8 +15,28 @@
 }
 
 .header-contacts__order {
+  display: none;
+
   font-size: 12px;
   line-height: 1;
   color: inherit;
   text-decoration: underline;
+}
+
+.header-contacts__mobile-phone {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+}
+
+@include var.tablet-size {
+
+  .header-contacts__mobile-phone {
+    display: none;
+  }
+
+  .header-contacts__phone,
+  .header-contacts__order {
+    display: block;
+  }
 }

@@ -2,10 +2,11 @@ import React, {useState} from "react";
 import {Photo, Photos} from "@/types/types";
 
 type GalleryProps = {
-    photos: Photos
+    photos: Photos;
+    videoUrl: string
 };
 
-const Gallery = ({photos}: GalleryProps) => {
+const Gallery = ({photos, videoUrl}: GalleryProps) => {
     const THUMBS_COUNT = 6;
     const [currentSlide, setCurrentSlide] = useState(photos[0]);
 
@@ -17,6 +18,9 @@ const Gallery = ({photos}: GalleryProps) => {
 
             <div className="gallery__thumbs lot-gallery-thumbs">
                 <ul className="gallery-thumbs__list">
+                    <li>
+
+                    </li>
                     {
                         photos
                             .slice(0, THUMBS_COUNT)

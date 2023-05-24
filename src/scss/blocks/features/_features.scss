@@ -4,13 +4,14 @@
   @extend %list-reset;
 
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
 }
 
 .features__item {
-  width: calc((100% - 20px* 3) / 4);
+  width: 100%;
 
   svg {
     margin-bottom: 30px;
@@ -19,6 +20,29 @@
   p {
     margin: 0;
 
-    font-size: 14px;
+    font-size: 12px;
+  }
+}
+
+@include var.tablet-size {
+
+  .features__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .features__item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@include var.desktop-size {
+
+  .features__item {
+    width: calc((100% - 20px* 3) / 4);
+
+    p {
+      font-size: 14px;
+    }
   }
 }

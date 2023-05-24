@@ -3,14 +3,13 @@
 .welcome-screen {
   position: relative;
 
-  height: 100vh;
   width: 100%;
 
   color: #ffffff;
   text-align: center;
 
   background-image: url('../../../public/images/video-background.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 
   overflow: hidden;
@@ -28,24 +27,25 @@
 
     background-color: rgba(0, 0, 0, .3);
   }
+
+  iframe {
+    display: none;
+  }
 }
 
 .welcome-screen__container {
+  position: relative;
+
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   max-width: 700px;
   height: 100%;
-}
+  padding-top: 120px;
+  padding-bottom: 40px;
 
-.welcome-screen__video {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  display: block;
-  overflow: hidden;
-  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 .welcome-screen__inner {
@@ -53,15 +53,15 @@
 
   color: var.$brand-white;
 
-  z-index: 2;
+  z-index: 3;
 }
 
 .welcome-screen__btn {
   position: relative;
 
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -78,13 +78,49 @@
     left: 50%;
 
     display: block;
-    width: 40px;
-    height: 40px;
-    margin-top: -18px;
-    margin-left: -20px;
+    width: 18px;
+    height: 18px;
+    margin-top: -8px;
+    margin-left: -9.5px;
 
     background-image: url('../../../public/images/ico-top-arrow.svg');
     background-size: cover;
     background-repeat: no-repeat;
+  }
+}
+
+@include var.tablet-size {
+
+  .welcome-screen__btn {
+    width: 50px;
+    height: 50px;
+
+
+    &::before {
+      content: '';
+
+      width: 40px;
+      height: 40px;
+      margin-top: -18px;
+      margin-left: -20px;
+    }
+  }
+}
+
+@include var.desktop-size {
+
+  .welcome-screen {
+    height: 100vh;
+
+    iframe {
+      position: absolute;
+      left: 0;
+
+      display: block;
+      width: 100%;
+
+      aspect-ratio: 16 / 9;
+      border: none;
+    }
   }
 }

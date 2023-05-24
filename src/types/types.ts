@@ -9,6 +9,8 @@ export type Place = {
     id: number;
     title: string;
     backgroundImage: string;
+    videoUrl: string;
+    path: string;
     photos: Photos;
 }
 

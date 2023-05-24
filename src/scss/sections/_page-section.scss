@@ -14,7 +14,7 @@
 .page-section__title {
   margin: 0;
 
-  font-size: 50px;
+  font-size: 32px;
   font-family: "OpenSansCondensed-Light", Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -28,3 +28,10 @@
   font-size: 14px;
   color: inherit;
 }
+
+@include var.tablet-size {
+
+  .page-section__title {
+    font-size: 50px;
+  }
+};
