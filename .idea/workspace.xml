@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/overlaying-popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/overlaying-popup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <recent name="$PROJECT_DIR$/src/scss/" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -73,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +94,7 @@
       <workItem from="1684791229042" duration="3407000" />
       <workItem from="1684913643877" duration="4971000" />
       <workItem from="1684931729483" duration="9789000" />
-      <workItem from="1684955825181" duration="8359000" />
+      <workItem from="1684955825181" duration="9298000" />
     </task>
     <servers />
   </component>

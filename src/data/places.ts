@@ -65,7 +65,7 @@ export const places: Places = [
         videos: [
             {
                 id: 1,
-                url: '/video/makarovo.mp4',
+                url: '/video/birch-grove.mp4',
             }
         ],
     },
@@ -99,7 +99,7 @@ export const places: Places = [
         videos: [
             {
                 id: 1,
-                url: '/video/makarovo.mp4',
+                url: '/video/ushmore-park.mp4',
             }
         ],
     },
@@ -133,7 +133,7 @@ export const places: Places = [
         videos: [
             {
                 id: 1,
-                url: '/video/makarovo.mp4',
+                url: '/video/village-ushmor.mp4',
             }
         ],
     },
@@ -167,7 +167,7 @@ export const places: Places = [
         videos: [
             {
                 id: 1,
-                url: '/video/makarovo.mp4',
+                url: '/video/village-frolovo.mp4',
             }
         ],
     },
