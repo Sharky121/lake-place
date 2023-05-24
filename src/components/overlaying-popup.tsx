@@ -12,22 +12,19 @@ const OverlayingPopup = ({children, onClose, isOpened}: OverlayingPopupType) => 
         return null;
     }
 
-    const setBodyOverflow = () => {
+    useEffect(() => {
         if (isOpened) {
             document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = 'auto';
         }
-    }
-
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    useEffect(() => {
-        setBodyOverflow();
 
         return () => {
             document.body.style.overflow = 'auto';
         };
     }, [isOpened]);
+
+    if (!isOpened) {
+        document.body.style.overflow = 'auto';
+    }
 
     return (
         <Portal>
