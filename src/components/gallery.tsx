@@ -1,48 +1,70 @@
 import React, {useState} from "react";
-import {Photo, Photos} from "@/types/types";
+import {Media, Place} from "@/types/types";
+import Image from "next/image";
 
 type GalleryProps = {
-    photos: Photos;
-    videoUrl: string
+    data: Place;
 };
 
-const Gallery = ({photos, videoUrl}: GalleryProps) => {
-    const THUMBS_COUNT = 6;
-    const [currentSlide, setCurrentSlide] = useState(photos[0]);
+const Gallery = ({data}: GalleryProps) => {
+    const mediaFiles = [...data.videos, ...data.photos].map((element, index) => {
+        return {
+            id: index,
+            url: element.url
+        }
+    });
+
+    const [currentSlide, setCurrentSlide] = useState(mediaFiles[0]);
+
+    const getTag = (slide: Media) => {
+        if (slide.id === 0) {
+            return (
+                <video className="gallery__video" autoPlay={true} controls={true}>
+                    <source src={`${slide.url}`} type="video/mp4"/>
+                </video>
+            );
+        }
+
+        return  (
+            <Image className="gallery__img" src={`${slide.url}`} alt=""/>
+        )
+    }
 
     return (
         <div className="gallery">
             <div className="gallery__container">
-                <img className="gallery__img" src={currentSlide.url} alt=""/>
+                {getTag(currentSlide)}
             </div>
 
             <div className="gallery__thumbs lot-gallery-thumbs">
                 <ul className="gallery-thumbs__list">
-                    <li>
-
-                    </li>
                     {
-                        photos
-                            .slice(0, THUMBS_COUNT)
-                            .map((photo: Photo, index: number) => {
-                                if (index === THUMBS_COUNT - 1) {
+                        mediaFiles
+                            .map((media: Media, index: number) => {
+                                if (index === 0) {
                                     return (
                                         <li key={index} className="gallery-thumbs__item">
-                                            <img className="gallery-thumbs__img" src={`/${photo}`} alt=""/>
+                                            <button className={`gallery-thumbs__button ${media.id === currentSlide.id ? 'gallery-thumbs__button--active' : ''}`}
+                                                    type="button"
+                                                    onClick={() => setCurrentSlide(media)}>
+                                                <video className="gallery-thumbs__img">
+                                                    <source src={`${media.url}`} type="video/mp4"/>
+                                                </video>
+                                            </button>
                                         </li>
                                     )
                                 }
 
                                 return (
                                     <li key={index} className="gallery-thumbs__item">
-                                        <button className={`gallery-thumbs__button ${photo.id === currentSlide.id ? 'gallery-thumbs__button--active' : ''}`}
+                                        <button className={`gallery-thumbs__button ${media.id === currentSlide.id ? 'gallery-thumbs__button--active' : ''}`}
                                                 type="button"
-                                                onClick={() => setCurrentSlide(photo)}>
-                                            <img className="gallery-thumbs__img" src={`/${photo.url}`} alt=""/>
+                                                onClick={() => setCurrentSlide(media)}>
+                                            <Image className="gallery-thumbs__img" src={`${media.url}`} alt=""/>
                                         </button>
                                     </li>
                                 )
-                            })}
+                    })}
                 </ul>
             </div>
         </div>
