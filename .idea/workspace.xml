@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section-features.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-features.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +28,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sharky/sites/torgi_rf&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/sharky/sites/lake-place/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/sharky/sites/lake-place",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/sharky/sites/lake-place/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/scss/" />
@@ -94,7 +93,9 @@
       <workItem from="1684791229042" duration="3407000" />
       <workItem from="1684913643877" duration="4971000" />
       <workItem from="1684931729483" duration="9789000" />
-      <workItem from="1684955825181" duration="9298000" />
+      <workItem from="1684955825181" duration="9603000" />
+      <workItem from="1685001986538" duration="1224000" />
+      <workItem from="1685079767086" duration="60000" />
     </task>
     <servers />
   </component>
