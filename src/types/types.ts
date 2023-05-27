@@ -10,6 +10,10 @@ export type Videos = Media[];
 export type Place = {
     id: number;
     title: string;
+    price: string;
+    area: string;
+    desc: string;
+    cadastralNumber: string;
     backgroundImage: string;
     path: string;
     photos: Photos;

@@ -16,6 +16,10 @@ export default function Home() {
     const [modalData, setModalData] = useState<Place>({
         backgroundImage: "",
         id: 0,
+        price: '',
+        area: '',
+        desc: '',
+        cadastralNumber: '',
         path: "",
         photos: [],
         title: "",
@@ -97,7 +101,7 @@ export default function Home() {
                 <MainPopup isOpened={modalIsOpen}
                            onClose={() => setModalIsOpen(false)}>
                     <div className="popup__header">
-                        <h3 className="popup__title">Название участка: {modalTitle}</h3>
+                        <h3 className="popup__title">{modalTitle}</h3>
                     </div>
                     <div className="popup__body">
                         {isLoading
@@ -118,7 +122,7 @@ export default function Home() {
                                                     className=""></path>
                                                 </g>
                                                 </svg>
-                                                <p className="place-info__title">Площадь: <b>6,2 Га</b></p>
+                                                <p className="place-info__title">Площадь: <b>{modalData.area}</b></p>
                                             </li>
                                             <li className="place-info__item">
                                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +135,7 @@ export default function Home() {
                                                     d="M41.121 10.9a1.5 1.5 0 0 1-1.141-.524l-.27-.311a1.5 1.5 0 1 1 2.242-1.993l.308.353a1.5 1.5 0 0 1-1.139 2.475z"
                                                     fill="#000000" data-original="#000000"
                                                     className=""></path></g></svg>
-                                                <p className="place-info__title">Стоимость: <b>850 тыс. р</b></p>
+                                                <p className="place-info__title">Стоимость: <b>{modalData.price} рублей</b></p>
                                             </li>
                                             <li className="place-info__item">
                                                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
@@ -147,7 +151,7 @@ export default function Home() {
                                                     d="M28.67 51.48a1 1 0 0 1-.63-.22l-7.19-5.88a1 1 0 0 1 1.27-1.55l7.18 5.88a1 1 0 0 1 .14 1.41 1 1 0 0 1-.77.36zM35.33 51.48a1 1 0 0 1-.53-1.84l8.09-5.11a1 1 0 0 1 1.38.31 1 1 0 0 1-.27 1.38l-8.1 5.11a1 1 0 0 1-.57.15z"
                                                     fill="#000000" data-original="#000000"
                                                     className=""></path></g></svg>
-                                                <p className="place-info__title">Кадастровый номер: <b>60:08:0090201:20</b></p>
+                                                <p className="place-info__title">Кадастровый номер: <b>{modalData.cadastralNumber}</b></p>
                                             </li>
                                             <li className="place-info__item">
                                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +159,7 @@ export default function Home() {
                                                      y="0" viewBox="0 0 24 24"
                                                      className=""><g>
                                                     <path fill="#000000" fillRule="evenodd" d="M11.5 9.003a1.001 1.001 0 0 1 0-2 1.001 1.001 0 0 1 0 2m1 7h-2a.5.5 0 0 1 0-1h.5v-4h-.5a.5.5 0 0 1 0-1h1a.5.5 0 0 1 .5.5v4.5h.5a.5.5 0 0 1 0 1m-1-13c-4.688 0-8.5 3.813-8.5 8.5s3.812 8.5 8.5 8.5c4.686 0 8.5-3.813 8.5-8.5s-3.814-8.5-8.5-8.5m0 18c-5.239 0-9.5-4.262-9.5-9.5s4.261-9.5 9.5-9.5c5.237 0 9.5 4.262 9.5 9.5s-4.263 9.5-9.5 9.5" data-original="#000000" className=""></path></g></svg>
-                                                <p className="place-info__title">Описание: <b>отсутствует</b></p>
+                                                <p className="place-info__title">Описание: {modalData.desc}</p>
                                             </li>
                                         </ul>
                                     </div>

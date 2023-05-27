@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section-features.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-features.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/places/village-frolovo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-frolovo/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/places/village-frolovo/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-frolovo/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/places/village-frolovo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/places/village-frolovo/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header-contacts/_header-contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/place-card/_place-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/place-card/_place-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/place/_place-info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/place/_place-info.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/scss/" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -71,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +106,8 @@
       <workItem from="1684931729483" duration="9789000" />
       <workItem from="1684955825181" duration="9603000" />
       <workItem from="1685001986538" duration="1224000" />
-      <workItem from="1685079767086" duration="60000" />
+      <workItem from="1685079767086" duration="1953000" />
+      <workItem from="1685211930517" duration="4504000" />
     </task>
     <servers />
   </component>
@@ -123,7 +135,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data/places.ts</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
