@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/overlaying-popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/overlaying-popup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/contacts/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sharky/sites/torgi_rf&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/sharky/sites/lake-place&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,7 +93,11 @@
       <workItem from="1684791229042" duration="3407000" />
       <workItem from="1684913643877" duration="4971000" />
       <workItem from="1684931729483" duration="9789000" />
-      <workItem from="1684955825181" duration="8359000" />
+      <workItem from="1684955825181" duration="9603000" />
+      <workItem from="1685001986538" duration="1224000" />
+      <workItem from="1685079767086" duration="1953000" />
+      <workItem from="1685211930517" duration="4504000" />
+      <workItem from="1685295489939" duration="1641000" />
     </task>
     <servers />
   </component>
@@ -123,8 +125,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data/places.ts</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/data/places.ts</url>
+          <line>172</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

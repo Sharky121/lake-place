@@ -38,7 +38,6 @@ const Header = () => {
                         </svg>
                     </a>
                     <a className="header-contacts__phone" href="tel:79155969524">7 (915) 596-95-24</a>
-                    <a className="header-contacts__order">заказать обратный звонок</a>
                 </div>
             </div>
         </header>

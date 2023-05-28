@@ -26,7 +26,7 @@ const Gallery = ({data}: GalleryProps) => {
         }
 
         return  (
-            <Image className="gallery__img" src={`${slide.url}`} alt=""/>
+            <img className="gallery__img" src={`${slide.url}`} alt=""/>
         )
     }
 
@@ -60,7 +60,7 @@ const Gallery = ({data}: GalleryProps) => {
                                         <button className={`gallery-thumbs__button ${media.id === currentSlide.id ? 'gallery-thumbs__button--active' : ''}`}
                                                 type="button"
                                                 onClick={() => setCurrentSlide(media)}>
-                                            <Image className="gallery-thumbs__img" src={`${media.url}`} alt=""/>
+                                            <img className="gallery-thumbs__img" src={`${media.url}`} alt=""/>
                                         </button>
                                     </li>
                                 )

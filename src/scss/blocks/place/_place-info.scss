@@ -6,11 +6,12 @@
 
 .place-info__item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   margin-bottom: 10px;
 
   svg {
+    flex-shrink: 0;
     margin-right: 10px;
   }
 
