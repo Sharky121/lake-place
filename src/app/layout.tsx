@@ -1,6 +1,7 @@
 import 'modern-normalize/modern-normalize.css';
 import '@/scss/globals.scss';
 import React from "react";
+import Head from 'next/head';
 import Header from "@/components/header";
 
 export const metadata = {
@@ -11,10 +12,13 @@ export const metadata = {
 export default function RootLayout({children}: { children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className="page">
-        <Header/>
-        {children}
-      </body>
+        <Head>
+            <title>Земля у Озера</title>
+        </Head>
+        <body className="page">
+            <Header/>
+            {children}
+        </body>
     </html>
   )
 }
