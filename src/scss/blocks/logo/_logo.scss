@@ -1,0 +1,12 @@
+@use "../../abstract" as var;
+
+.logo img {
+  width: 56px;
+}
+
+@include var.desktop-size {
+
+  .logo img {
+    width: 76px;
+  }
+}

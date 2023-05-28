@@ -1,0 +1,73 @@
+@use '../../abstract' as var;
+
+.gallery__container {
+  position: relative;
+
+  height: 400px;
+  margin-bottom: 15px;
+
+  text-align: center;
+
+  overflow: hidden;
+}
+
+.gallery__img {
+  width: auto;
+  height: auto;
+}
+
+.gallery__video {
+  width: auto;
+  height: 400px;
+}
+
+.gallery-thumbs__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.gallery-thumbs__item {
+  width: calc((100% - 10px * 4) / 5);
+}
+
+.gallery-thumbs__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-thumbs__button {
+  @extend %btn-reset;
+
+  position: relative;
+
+  height: 100px;
+
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+
+.gallery-thumbs__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-thumbs__button--active {
+  border: 2px solid var.$brand-green;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(var.$brand-green, 0.5);
+    z-index: 1;
+  }
+}

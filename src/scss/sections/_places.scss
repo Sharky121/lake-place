@@ -6,6 +6,7 @@
 
 .places__list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
@@ -13,5 +14,21 @@
 }
 
 .places__item {
-  width: calc((100% - 20px * 2) / 3);
+  width: 100%;
+}
+
+@include var.tablet-size {
+
+  .places__list {
+    flex-direction: row;
+  }
+
+  .places__item {
+    width: calc((100% - 20px * 2) / 3);
+  }
+}
+
+@include var.desktop-size {
+
+
 }

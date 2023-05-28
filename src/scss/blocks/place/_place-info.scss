@@ -1,0 +1,27 @@
+@use '../../abstract' as var;
+
+.place-info__list {
+  @extend %list-reset;
+}
+
+.place-info__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+
+  svg {
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.place-info__title {
+  margin: 0;
+
+  font-size: 16px;
+}
