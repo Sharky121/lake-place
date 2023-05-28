@@ -42,7 +42,6 @@ export default function Home() {
                     <div className="welcome-screen__container container">
                         <div className="welcome-screen__inner">
                             <h1 className="page__title">Земля у Озера</h1>
-                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                             <a className="welcome-screen__btn" href="#features">
                                 <span className="visually-hidden">Вниз</span>
                             </a>
@@ -54,7 +53,6 @@ export default function Home() {
                     <div className="page-section__container container">
                         <div className="page-section__head">
                             <h2 className="page-section__title">Участки</h2>
-                            <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                         </div>
 
                         <ul className="places__list">
@@ -76,7 +74,6 @@ export default function Home() {
                     <div className="page-section__container container">
                         <div className="page-section__head">
                             <h2 className="page-section__title">Интерактивная Карта</h2>
-                            <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                         </div>
                         <div className="map__scheme">
                             <SvgMap handlePlacePopup={handlePlacePopup}/>
@@ -87,7 +84,6 @@ export default function Home() {
                     <div className="contacts__container container">
                         <div className="page-section__head">
                             <h2 className="page-section__title">Контакты</h2>
-                            <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                         </div>
                         <ul className="contacts__list">
                             <li className="contacts__item">Телефон: <b>+7 (915) 596-95-24</b></li>
