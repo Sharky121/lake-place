@@ -3,7 +3,7 @@
 import VideoBackground from "@/components/video-background";
 import YandexMap from "@/components/yandex-map";
 import SvgMap from "@/components/svg-map";
-import {Media, Place} from "@/types/types";
+import {Place} from "@/types/types";
 import {places} from '@/data/places'
 import {useState} from "react";
 import MainPopup from "@/components/main-popup";
@@ -42,7 +42,6 @@ export default function Home() {
                     <div className="welcome-screen__container container">
                         <div className="welcome-screen__inner">
                             <h1 className="page__title">Земля у Озера</h1>
-                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                             <a className="welcome-screen__btn" href="#features">
                                 <span className="visually-hidden">Вниз</span>
                             </a>
