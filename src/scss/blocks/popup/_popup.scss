@@ -9,7 +9,7 @@
 
   width: 100%;
   height: 100%;
-  padding: 36px;
+  padding: 10px;
 
   z-index: 999;
 
@@ -31,8 +31,8 @@
 
 .popup {
   max-height: 90vh;
-  padding: 20px;
-  width: 90%;
+  padding: 10px;
+  width: 100%;
   max-width: 1200px;
   height: auto;
 
@@ -97,9 +97,26 @@
 }
 
 .popup__body {
-  padding: 20px;
+  padding: 10px;
 }
 
 .popup__footer {
   padding: 20px;
+}
+
+
+@include var.tablet-size {
+
+  .popup-container {
+    padding: 36px;
+  }
+
+  .popup {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .popup__body {
+    padding: 20px;
+  }
 }
