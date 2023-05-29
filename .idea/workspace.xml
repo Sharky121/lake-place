@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/video-background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video-background.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_welcome-screen.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +100,9 @@
       <workItem from="1685079767086" duration="1953000" />
       <workItem from="1685211930517" duration="4504000" />
       <workItem from="1685295489939" duration="2834000" />
+      <workItem from="1685348832877" duration="30000" />
+      <workItem from="1685374571059" duration="3987000" />
+      <workItem from="1685378578689" duration="405000" />
     </task>
     <servers />
   </component>
@@ -130,7 +136,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data/places.ts</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

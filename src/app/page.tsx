@@ -38,14 +38,8 @@ export default function Home() {
             <main className="page__main">
                 <section className="page__section page-section page__welcome-screen welcome-screen" id="welcome">
                     <h2 className="visually-hidden">Главный экран</h2>
-                    <VideoBackground videoId={'S874iBGT6HI'}/>
-                    <div className="welcome-screen__container container">
-                        <div className="welcome-screen__inner">
-                            <h1 className="page__title">Земля у Озера</h1>
-                            <a className="welcome-screen__btn" href="#features">
-                                <span className="visually-hidden">Вниз</span>
-                            </a>
-                        </div>
+                    <div className="welcome-screen__video-wrapper">
+                      <VideoBackground videoId={'S874iBGT6HI'}/>
                     </div>
                 </section>
                 <SectionFeatures/>

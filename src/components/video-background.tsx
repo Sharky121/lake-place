@@ -19,7 +19,7 @@ const VideoBackground = ({videoId}: VideoBackgroundProps) => {
                 title="YouTube video player"
                 allowFullScreen={true}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=${videoId}`}
+                src={`https://www.youtube.com/embed/${videoId}?modestbranding=1&autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=${videoId}`}
             />
         </>
     );
