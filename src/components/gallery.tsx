@@ -47,7 +47,7 @@ const Gallery = ({data}: GalleryProps) => {
                                             <button className={`gallery-thumbs__button ${media.id === currentSlide.id ? 'gallery-thumbs__button--active' : ''}`}
                                                     type="button"
                                                     onClick={() => setCurrentSlide(media)}>
-                                                <video className="gallery-thumbs__img">
+                                                <video className="gallery-thumbs__img" autoPlay={false} muted={false} loop={true}>
                                                     <source src={`${media.url}`} type="video/mp4"/>
                                                 </video>
                                             </button>
