@@ -40,7 +40,7 @@ const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
                               onClick={() => handlePlacePopup(place)}
                               onMouseOver={handleMouseOver}
                               onMouseLeave={handleMouseLeave}
-                              pointerEvents="bounding-box"
+                              pointerEvents="visible"
                               d={place.path}
                               stroke={pathStyles.stroke} strokeWidth={pathStyles.strokeWidth} fill={pathStyles.fill} />
                     ))
