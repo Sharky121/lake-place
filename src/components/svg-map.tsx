@@ -3,7 +3,7 @@ import {places} from "@/data/places";
 import {Place} from "@/types/types";
 
 const pathStyles = {
-    stroke: 'green',
+    stroke: 'red',
     fill: 'none',
     strokeWidth: '2',
 }
@@ -16,7 +16,7 @@ const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
 
     // @ts-ignore
     const handleMouseOver = (evt) => {
-        evt.target.setAttribute('fill', 'rgba(0, 128, 0, 0.5)');
+        evt.target.setAttribute('fill', 'red');
     }
 
     // @ts-ignore

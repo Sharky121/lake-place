@@ -74,6 +74,7 @@ export default function Home() {
                     <div className="page-section__container container">
                         <div className="page-section__head">
                             <h2 className="page-section__title">Интерактивная Карта</h2>
+                            <p className="page-section__subtitle">Нажмите на участок, чтобы узнать подробнее</p>
                         </div>
                         <div className="map__scheme">
                             <SvgMap handlePlacePopup={handlePlacePopup}/>
