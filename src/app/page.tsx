@@ -3,7 +3,7 @@
 import VideoBackground from "@/components/video-background";
 import YandexMap from "@/components/yandex-map";
 import SvgMap from "@/components/svg-map";
-import {Place} from "@/types/types";
+import {Media, Place} from "@/types/types";
 import {places} from '@/data/places'
 import {useState} from "react";
 import MainPopup from "@/components/main-popup";
@@ -53,7 +53,6 @@ export default function Home() {
                     <div className="page-section__container container">
                         <div className="page-section__head">
                             <h2 className="page-section__title">Участки</h2>
-                            <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                         </div>
 
                         <ul className="places__list">
@@ -75,7 +74,6 @@ export default function Home() {
                     <div className="page-section__container container">
                         <div className="page-section__head">
                             <h2 className="page-section__title">Интерактивная Карта</h2>
-                            <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                         </div>
                         <div className="map__scheme">
                             <SvgMap handlePlacePopup={handlePlacePopup}/>
@@ -86,7 +84,6 @@ export default function Home() {
                     <div className="contacts__container container">
                         <div className="page-section__head">
                             <h2 className="page-section__title">Контакты</h2>
-                            <p className="page-section__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
                         </div>
                         <ul className="contacts__list">
                             <li className="contacts__item">Телефон: <b>+7 (915) 596-95-24</b></li>

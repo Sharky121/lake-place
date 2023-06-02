@@ -1,6 +1,11 @@
 export type Media = {
     id: number
     url: string;
+};
+
+export type Menu = {
+    title: string;
+    url: string;
 }
 
 export type Photos = Media[];

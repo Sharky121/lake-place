@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/popup/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/video-background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video-background.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,13 @@
       <workItem from="1685001986538" duration="1224000" />
       <workItem from="1685079767086" duration="1953000" />
       <workItem from="1685211930517" duration="4504000" />
-      <workItem from="1685295489939" duration="1641000" />
+      <workItem from="1685295489939" duration="2834000" />
+      <workItem from="1685348832877" duration="30000" />
+      <workItem from="1685374571059" duration="3987000" />
+      <workItem from="1685378578689" duration="405000" />
+      <workItem from="1685433047769" duration="285000" />
+      <workItem from="1685458552508" duration="754000" />
+      <workItem from="1685715263077" duration="3547000" />
     </task>
     <servers />
   </component>
@@ -121,7 +132,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/header.tsx</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -131,8 +142,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/data/places.ts</url>
-          <line>172</line>
-          <option name="timeStamp" value="7" />
+          <line>2</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/types/types.ts</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import {menu} from "@/data/places";
+import {Menu} from "@/types/types";
 
 const Header = () => {
     return (
@@ -15,18 +17,13 @@ const Header = () => {
                 </a>
                 <nav className="header__menu header-menu">
                     <ul className="header-menu__list">
-                        <li className="header-menu__item">
-                            <a className="header-menu__link" href="#welcome">Главная</a>
-                        </li>
-                        <li className="header-menu__item">
-                            <a className="header-menu__link" href="#places">Земля в центре</a>
-                        </li>
-                        <li className="header-menu__item">
-                            <a className="header-menu__link" href="#map">Карта</a>
-                        </li>
-                        <li className="header-menu__item">
-                            <a className="header-menu__link" href="#contacts">Контакты</a>
-                        </li>
+                        {
+                            menu.map((item: Menu, index) => (
+                                <li key={index} className="header-menu__item">
+                                    <a className="header-menu__link" href={`#${item.url}`}>{item.title}</a>
+                                </li>
+                            ))
+                        }
                     </ul>
                 </nav>
 
