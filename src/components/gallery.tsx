@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {Media, Place} from "@/types/types";
+import Fancybox from '@/components/fancybox';
 import Image from "next/image";
 
 type GalleryProps = {
@@ -26,7 +27,12 @@ const Gallery = ({data}: GalleryProps) => {
         }
 
         return  (
-            <img className="gallery__img" src={`${slide.url}`} alt=""/>
+            <Fancybox>
+                <a data-fancybox="gallery" className="gallery__link"
+                   href={`${slide.url}`}>
+                    <img className="gallery__img" src={`${slide.url}`} alt=""/>
+                </a>
+            </Fancybox>
         )
     }
 
