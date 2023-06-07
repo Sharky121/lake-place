@@ -73,7 +73,7 @@ const Gallery = ({data}: GalleryProps) => {
                                         <button className={`gallery-thumbs__button ${media.id === currentSlide.id ? 'gallery-thumbs__button--active' : ''}`}
                                                 type="button"
                                                 onClick={() => setCurrentSlide(media)}>
-                                            <img className="gallery-thumbs__img" src={`${media.url}`} alt=""/>
+                                            <Image fill className="gallery-thumbs__img" src={`/${media.url}`} alt=""/>
                                         </button>
                                     </li>
                                 )

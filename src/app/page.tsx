@@ -87,8 +87,8 @@ export default function Home() {
                             <h2 className="page-section__title">Контакты</h2>
                         </div>
                         <ul className="contacts__list">
-                            <li className="contacts__item">Телефон: <b>+7 (915) 596-95-24</b></li>
-                            <li className="contacts__item">Email: <b>ulibabaeva@mail.ru</b></li>
+                            <li className="contacts__item">Телефон: <b>+7 (915) 600-94-44</b></li>
+                            <li className="contacts__item">Email: <b><a href="mailto:ulibabaeva@mail.ru">ulibabaeva@mail.ru</a>, <a href="mailto:Ushmor@list.ru">Ushmor@list.ru</a></b></li>
                         </ul>
                     </div>
                 </section>

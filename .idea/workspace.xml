@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="" />
+    <list default="true" id="53454817-5bf5-420a-a74d-6b9007bf161f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +108,9 @@
       <workItem from="1685721385367" duration="1759000" />
       <workItem from="1685896985721" duration="543000" />
       <workItem from="1685897534768" duration="413000" />
-      <workItem from="1685978859421" duration="4762000" />
+      <workItem from="1685978859421" duration="5368000" />
+      <workItem from="1686038433910" duration="62000" />
+      <workItem from="1686160691150" duration="101000" />
     </task>
     <servers />
   </component>
@@ -143,7 +149,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/gallery.tsx</url>
           <line>19</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
