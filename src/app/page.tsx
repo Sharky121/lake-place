@@ -81,6 +81,22 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
+                <section className="page__section page-section page__press press" id="press">
+                    <div className="press__container container">
+                        <div className="page-section__head">
+                            <h2 className="page-section__title">СМИ о нас</h2>
+                        </div>
+                        <ul className="press__list">
+                            <li className="press__item press-item">
+                                <iframe className="press-item__iframe"
+                                    src="https://vk.com/video_ext.php?oid=-118483733&id=456239939&hash=365de5d635dbf723&hd=2"
+                                    width="853" height="480"
+                                    allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameBorder="0"
+                                    allowFullScreen></iframe>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
                 <section className="page__section page-section page__contacts contacts" id="contacts">
                     <div className="contacts__container container">
                         <div className="page-section__head">

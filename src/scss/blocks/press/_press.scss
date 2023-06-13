@@ -1,0 +1,35 @@
+@use '../../abstract' as var;
+
+.press__container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  text-align: center;
+}
+
+.press__list {
+  @extend %list-reset;
+}
+
+.press__item {
+  width: 300px;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include var.tablet-size {}
+
+@include var.desktop-size {
+
+  .press__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .press__item {
+    width: calc(100% / 2);
+    height: 350px;
+  }
+}
