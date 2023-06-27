@@ -219,6 +219,14 @@ export const places: Places = [
                 id: 5,
                 url: 'images/places/village-frolovo/5.jpg',
             },
+            {
+                id: 6,
+                url: 'images/places/village-frolovo/6.jpg',
+            },
+            {
+                id: 7,
+                url: 'images/places/village-frolovo/7.jpg',
+            },
         ],
         videos: [
             {
