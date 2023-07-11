@@ -1,9 +1,8 @@
 'use client';
 
 import VideoBackground from "@/components/video-background";
-import YandexMap from "@/components/yandex-map";
 import SvgMap from "@/components/svg-map";
-import {Media, Place} from "@/types/types";
+import {Place} from "@/types/types";
 import {places} from '@/data/places'
 import {useState} from "react";
 import MainPopup from "@/components/main-popup";
@@ -103,8 +102,8 @@ export default function Home() {
                             <h2 className="page-section__title">Контакты</h2>
                         </div>
                         <ul className="contacts__list">
-                            <li className="contacts__item">Телефон: <b><a href="tel:+79156009444">+7 (915) 600-94-44</a></b></li>
-                            <li className="contacts__item">Email: <b><a href="mailto:ulibabaeva@mail.ru">ulibabaeva@mail.ru</a>, <a href="mailto:Ushmor@list.ru">Ushmor@list.ru</a></b></li>
+                            <li className="contacts__item">Телефоны: <b><a href="tel:+79206309462">+7 (920) 630-94-62</a></b>, <b><a href="tel:+74912961961">+7 (4912) 961-961</a></b></li>
+                            <li className="contacts__item">Адрес: <b>Рязань, ул. Вокзальная, д. 6</b></li>
                         </ul>
                     </div>
                 </section>
