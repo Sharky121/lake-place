@@ -1,6 +1,8 @@
+import { Tooltip } from 'react-tooltip';
 import Image from "next/image";
 import {places} from "@/data/places";
 import {Place} from "@/types/types";
+import {useState} from "react";
 
 const pathStyles = {
     stroke: 'red',
@@ -13,6 +15,7 @@ type SvgMapProps = {
 }
 
 const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
+    const [isOpen, setIsOpen] = useState(false);
 
     // @ts-ignore
     const handleMouseOver = (evt) => {
@@ -33,7 +36,7 @@ const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
                 className="logo__img"
                 alt="Карта Дом у Озера"
             />
-            <svg viewBox="0 0 1280 720" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: '100' }}>
+            <svg viewBox="0 0 1280 720" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: '0' }}>
                 {
                     places.map((place, index) => (
                         <path key={index}
@@ -42,11 +45,13 @@ const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
                               onMouseLeave={handleMouseLeave}
                               pointerEvents="visible"
                               d={place.path}
+                              data-tooltip-id="area-title"
+                              data-tooltip-content={`${place.title}`}
                               stroke={pathStyles.stroke} strokeWidth={pathStyles.strokeWidth} fill={pathStyles.fill} />
                     ))
                 }
             </svg>
-
+            <Tooltip id="area-title" effect="solid"/>
         </>
     )
 }

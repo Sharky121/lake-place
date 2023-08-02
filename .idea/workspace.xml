@@ -9,8 +9,7 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/places.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/places.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/gallery/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg-map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg-map.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
       <workItem from="1690806134732" duration="5219000" />
       <workItem from="1690878190715" duration="58000" />
       <workItem from="1690878692845" duration="9000" />
-      <workItem from="1690971098232" duration="8395000" />
+      <workItem from="1690971098232" duration="10488000" />
     </task>
     <servers />
   </component>
@@ -158,6 +157,12 @@
           <url>file://$PROJECT_DIR$/src/types/types.ts</url>
           <line>14</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/svg-map.tsx</url>
+          <line>38</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

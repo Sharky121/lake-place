@@ -71,7 +71,7 @@ const Gallery = ({data}: GalleryProps) => {
                         return  (
                             <div key={index + uuidv4()} className="f-carousel__slide gallery__link" data-thumb-src={photo.url}>
                                 <a href={photo.url} data-fancybox="gallery">
-                                    <Image fill className="gallery-thumbs__img" src={`/${photo.url}`} alt=""/>
+                                    <Image fill className="gallery-thumbs__img" src={`/${photo.url}`} loading="lazy" alt=""/>
                                 </a>
                             </div>
                         )
@@ -98,7 +98,7 @@ const Gallery = ({data}: GalleryProps) => {
                         photos.map((media: Media, index: number) => {
                             return (
                                 <div key={index} className="f-carousel__slide gallery-thumbs__item">
-                                    <Image fill className="gallery-thumbs__img" src={`/${media.url}`} alt=""/>
+                                    <Image fill className="gallery-thumbs__img" src={`/${media.url}`} loading="lazy" alt=""/>
                                 </div>
                             )
                         })
