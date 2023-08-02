@@ -51,7 +51,7 @@ const SvgMap = ({handlePlacePopup}: SvgMapProps) => {
                     ))
                 }
             </svg>
-            <Tooltip id="area-title" effect="solid"/>
+            <Tooltip id="area-title"/>
         </>
     )
 }
