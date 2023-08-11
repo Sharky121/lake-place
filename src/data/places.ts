@@ -193,7 +193,7 @@ export const places: Places = [
     {
         id: 5,
         title: 'Участок Фролово',
-        price: '354 000',
+        price: '23 000',
         area: 'от 16.2 до 32,4 сотки',
         cadastralNumber: '62:05:2790601:187',
         backgroundImage: '/images/places/village-frolovo/index.jpg',
