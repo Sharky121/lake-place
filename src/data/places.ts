@@ -97,7 +97,7 @@ export const places: Places = [
     {
         id: 3,
         title: 'Ушмор-парк',
-        price: '5 000 000',
+        price: '15 500 000',
         area: '1.2 га',
         cadastralNumber: '62:05:2510101:179, 62:05:2790601:190',
         backgroundImage: '/images/places/ushmore-park/index.jpg',
@@ -190,142 +190,142 @@ export const places: Places = [
             'У участка нет обременений: находится за пределами национального парка и его охранной зоны.\n' +
             'Возможна рассрочка до года.',
     },
-    {
-        id: 5,
-        title: 'Участок Фролово',
-        price: '23 000',
-        area: 'от 16.2 до 32,4 сотки',
-        cadastralNumber: '62:05:2790601:187',
-        backgroundImage: '/images/places/village-frolovo/index.jpg',
-        path: "m 662.49954,397.01522 140.08115,15.18326 36.87556,73.95898 -0.0966,0.53708 -66.19491,-10.43161 -45.75271,-8.13152 -38.43843,-6.87855 -26.37386,-4.45233 z",
-        photos: [
-            {
-                id: 1,
-                url: 'images/places/village-frolovo/1.jpg',
-            },
-            {
-                id: 2,
-                url: 'images/places/village-frolovo/2.jpg',
-            },
-            {
-                id: 3,
-                url: 'images/places/village-frolovo/3.jpg',
-            },
-            {
-                id: 4,
-                url: 'images/places/village-frolovo/4.jpg',
-            },
-            {
-                id: 5,
-                url: 'images/places/village-frolovo/5.jpg',
-            },
-            {
-                id: 6,
-                url: 'images/places/village-frolovo/6.jpg',
-            },
-            {
-                id: 7,
-                url: 'images/places/village-frolovo/7.jpg',
-            },
-        ],
-        videos: [
-            {
-                id: 1,
-                url: '/video/village-frolovo.mp4',
-            }
-        ],
-        desc: 'Продаются участки от 16,2  до 32, 4 соток. Земля под ИЖС, для объектов жилой застройки, в границах населенного пункта.  Земля размежевана, Вы можете подобрать для себя любой понравившейся участок. Земля находится в уникальном месте! Рядом, в 200-х, метрах располагается озеро Ивановское, одно из крупнейших озер Мещёры, с удивительно красивыми видами .Участок граничит с лесом ,имеется асфальтированная дорога. Рядом проходят коммуникации (электричество ,газ). Участок включен в границы населенного пункта. В дачном поселке проживают приличные соседи. До районного центра Спас-Клепики 15 км, до границы с Московской областью -2 км.',
-    },
-    {
-        id: 6,
-        title: 'Эксклюзивное предложение!',
-        price: '15 000 000',
-        area: '126 кв.м',
-        cadastralNumber: '',
-        backgroundImage: '/images/places/exclusive/index.jpg',
-        path: "m 578.30784,252.82687 6.95493,14.45318 20.67839,-9.20901 -8.2891,-13.71494 z",
-        photos: [
-            {
-                id: 1,
-                url: 'images/places/exclusive/1.jpg',
-            },
-            {
-                id: 2,
-                url: 'images/places/exclusive/2.jpg',
-            },
-            {
-                id: 3,
-                url: 'images/places/exclusive/3.jpg',
-            },
-            {
-                id: 4,
-                url: 'images/places/exclusive/4.jpg',
-            },
-            {
-                id: 5,
-                url: 'images/places/exclusive/5.jpg',
-            },
-            {
-                id: 6,
-                url: 'images/places/exclusive/6.jpg',
-            },
-            {
-                id: 7,
-                url: 'images/places/exclusive/7.jpg',
-            },
-            {
-                id: 8,
-                url: 'images/places/exclusive/8.jpg',
-            },
-            {
-                id: 9,
-                url: 'images/places/exclusive/9.jpg',
-            },
-            {
-                id: 10,
-                url: 'images/places/exclusive/10.jpg',
-            },
-            {
-                id: 11,
-                url: 'images/places/exclusive/11.jpg',
-            },
-            {
-                id: 12,
-                url: 'images/places/exclusive/12.jpg',
-            },
-            {
-                id: 13,
-                url: 'images/places/exclusive/13.jpg',
-            },
-            {
-                id: 14,
-                url: 'images/places/exclusive/14.jpg',
-            },
-            {
-                id: 15,
-                url: 'images/places/exclusive/15.jpg',
-            },
-            {
-                id: 16,
-                url: 'images/places/exclusive/16.jpg',
-            },
-            {
-                id: 17,
-                url: 'images/places/exclusive/17.jpg',
-            },
-            {
-                id: 18,
-                url: 'images/places/exclusive/18.jpg',
-            },
-            {
-                id: 19,
-                url: 'images/places/exclusive/19.jpg',
-            },
-        ],
-        videos: [],
-        desc: 'На участке 17 соток в самом центре Мещеры продаются два дома. В гостевом доме уютная планировка, хороший ремонт, все условия для отличной семейной жизни.\n' +
-            'Второй дом – притчевый – с купелью, классными комнатами, библиотекой, коваными перилами и ручной росписью на потолке. Нет никаких ограничений на перепланировку и реконструкцию.',
-    },
+    // {
+    //     id: 5,
+    //     title: 'Участок Фролово',
+    //     price: '23 000',
+    //     area: 'от 16.2 до 32,4 сотки',
+    //     cadastralNumber: '62:05:2790601:187',
+    //     backgroundImage: '/images/places/village-frolovo/index.jpg',
+    //     path: "m 662.49954,397.01522 140.08115,15.18326 36.87556,73.95898 -0.0966,0.53708 -66.19491,-10.43161 -45.75271,-8.13152 -38.43843,-6.87855 -26.37386,-4.45233 z",
+    //     photos: [
+    //         {
+    //             id: 1,
+    //             url: 'images/places/village-frolovo/1.jpg',
+    //         },
+    //         {
+    //             id: 2,
+    //             url: 'images/places/village-frolovo/2.jpg',
+    //         },
+    //         {
+    //             id: 3,
+    //             url: 'images/places/village-frolovo/3.jpg',
+    //         },
+    //         {
+    //             id: 4,
+    //             url: 'images/places/village-frolovo/4.jpg',
+    //         },
+    //         {
+    //             id: 5,
+    //             url: 'images/places/village-frolovo/5.jpg',
+    //         },
+    //         {
+    //             id: 6,
+    //             url: 'images/places/village-frolovo/6.jpg',
+    //         },
+    //         {
+    //             id: 7,
+    //             url: 'images/places/village-frolovo/7.jpg',
+    //         },
+    //     ],
+    //     videos: [
+    //         {
+    //             id: 1,
+    //             url: '/video/village-frolovo.mp4',
+    //         }
+    //     ],
+    //     desc: 'Продаются участки от 16,2  до 32, 4 соток. Земля под ИЖС, для объектов жилой застройки, в границах населенного пункта.  Земля размежевана, Вы можете подобрать для себя любой понравившейся участок. Земля находится в уникальном месте! Рядом, в 200-х, метрах располагается озеро Ивановское, одно из крупнейших озер Мещёры, с удивительно красивыми видами .Участок граничит с лесом ,имеется асфальтированная дорога. Рядом проходят коммуникации (электричество ,газ). Участок включен в границы населенного пункта. В дачном поселке проживают приличные соседи. До районного центра Спас-Клепики 15 км, до границы с Московской областью -2 км.',
+    // },
+    // {
+    //     id: 6,
+    //     title: 'Эксклюзивное предложение!',
+    //     price: '15 000 000',
+    //     area: '126 кв.м',
+    //     cadastralNumber: '',
+    //     backgroundImage: '/images/places/exclusive/index.jpg',
+    //     path: "m 578.30784,252.82687 6.95493,14.45318 20.67839,-9.20901 -8.2891,-13.71494 z",
+    //     photos: [
+    //         {
+    //             id: 1,
+    //             url: 'images/places/exclusive/1.jpg',
+    //         },
+    //         {
+    //             id: 2,
+    //             url: 'images/places/exclusive/2.jpg',
+    //         },
+    //         {
+    //             id: 3,
+    //             url: 'images/places/exclusive/3.jpg',
+    //         },
+    //         {
+    //             id: 4,
+    //             url: 'images/places/exclusive/4.jpg',
+    //         },
+    //         {
+    //             id: 5,
+    //             url: 'images/places/exclusive/5.jpg',
+    //         },
+    //         {
+    //             id: 6,
+    //             url: 'images/places/exclusive/6.jpg',
+    //         },
+    //         {
+    //             id: 7,
+    //             url: 'images/places/exclusive/7.jpg',
+    //         },
+    //         {
+    //             id: 8,
+    //             url: 'images/places/exclusive/8.jpg',
+    //         },
+    //         {
+    //             id: 9,
+    //             url: 'images/places/exclusive/9.jpg',
+    //         },
+    //         {
+    //             id: 10,
+    //             url: 'images/places/exclusive/10.jpg',
+    //         },
+    //         {
+    //             id: 11,
+    //             url: 'images/places/exclusive/11.jpg',
+    //         },
+    //         {
+    //             id: 12,
+    //             url: 'images/places/exclusive/12.jpg',
+    //         },
+    //         {
+    //             id: 13,
+    //             url: 'images/places/exclusive/13.jpg',
+    //         },
+    //         {
+    //             id: 14,
+    //             url: 'images/places/exclusive/14.jpg',
+    //         },
+    //         {
+    //             id: 15,
+    //             url: 'images/places/exclusive/15.jpg',
+    //         },
+    //         {
+    //             id: 16,
+    //             url: 'images/places/exclusive/16.jpg',
+    //         },
+    //         {
+    //             id: 17,
+    //             url: 'images/places/exclusive/17.jpg',
+    //         },
+    //         {
+    //             id: 18,
+    //             url: 'images/places/exclusive/18.jpg',
+    //         },
+    //         {
+    //             id: 19,
+    //             url: 'images/places/exclusive/19.jpg',
+    //         },
+    //     ],
+    //     videos: [],
+    //     desc: 'На участке 17 соток в самом центре Мещеры продаются два дома. В гостевом доме уютная планировка, хороший ремонт, все условия для отличной семейной жизни.\n' +
+    //         'Второй дом – притчевый – с купелью, классными комнатами, библиотекой, коваными перилами и ручной росписью на потолке. Нет никаких ограничений на перепланировку и реконструкцию.',
+    // },
 ];
 
 export const menu: Menu[] = [
