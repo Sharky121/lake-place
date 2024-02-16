@@ -150,7 +150,7 @@ export const places: Places = [
     {
         id: 4,
         title: 'Ушморское поле (64 га)',
-        price: '22 000 000',
+        price: '96 000 000',
         area: '64 га',
         cadastralNumber: '62:05:2510101:92',
         backgroundImage: '/images/places/village-ushmor/index.jpg',
