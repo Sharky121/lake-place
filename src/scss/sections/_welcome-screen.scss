@@ -116,16 +116,16 @@
 
   .welcome-screen {
     height: 100vh;
+  }
 
-    iframe {
-      position: absolute;
-      left: 0;
+  .welcome-screen__video {
+    position: absolute;
+    left: 0;
 
-      display: block;
-      width: 100%;
+    display: block;
+    width: 100%;
 
-      aspect-ratio: 16 / 9;
-      border: none;
-    }
+    aspect-ratio: 16 / 9;
+    border: none;
   }
 }

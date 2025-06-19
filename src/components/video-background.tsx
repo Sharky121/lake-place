@@ -15,12 +15,14 @@ const VideoBackground = ({videoId}: VideoBackgroundProps) => {
 
     return (
         <>
-            <iframe
-                frameBorder="0" allow="clipboard-write; autoplay" 
-                webkitAllowFullScreen 
-                mozallowfullscreen
-                allowFullScreen
-                src={`https://rutube.ru/play/embed/${videoId}`}
+            <video className="welcome-screen__video"
+                ref={videoRef}
+                src="/video/video-main.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
         </>
     );
