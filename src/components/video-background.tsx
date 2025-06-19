@@ -16,10 +16,11 @@ const VideoBackground = ({videoId}: VideoBackgroundProps) => {
     return (
         <>
             <iframe
-                title="YouTube video player"
-                allowFullScreen={true}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                src={`https://www.youtube.com/embed/${videoId}?modestbranding=0&autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=${videoId}`}
+                frameBorder="0" allow="clipboard-write; autoplay" 
+                webkitAllowFullScreen 
+                mozallowfullscreen
+                allowFullScreen
+                src={`https://rutube.ru/play/embed/${videoId}`}
             />
         </>
     );
