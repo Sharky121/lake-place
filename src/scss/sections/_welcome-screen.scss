@@ -43,7 +43,7 @@
   max-width: 700px;
   height: 100%;
   padding-top: 140px;
-  padding-bottom: 40px;
+  padding-bottom: 140px;
 
   z-index: 2;
 }
@@ -87,6 +87,10 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+}
+
+.welcome-screen__video {
+  display: none;
 }
 
 @include var.tablet-size {

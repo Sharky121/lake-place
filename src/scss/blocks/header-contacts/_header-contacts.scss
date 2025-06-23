@@ -8,7 +8,7 @@
 .header-contacts__phone {
   display: none;
 
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1;
   font-weight: 700;
   color: inherit;
@@ -38,5 +38,13 @@
   .header-contacts__phone,
   .header-contacts__order {
     display: block;
+  }
+  
+}
+
+@include var.desktop-size {
+
+  .header-contacts__phone {
+    font-size: 24px;
   }
 }
